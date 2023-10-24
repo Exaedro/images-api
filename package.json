@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "4.18.2",
+    "morgan": "1.10.0",
+    "multer": "1.4.5-lts.1",
+    "mysql2": "3.6.2",
+    "uuid": "9.0.1"
+  },
+  "name": "images-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "prefix": "/api/v1",
+  "principal": "/api/v1/images",
+  "upload": "/api/v1/images/upload",
+  "type": "module",
+  "keywords": [],
+  "author": "Exaedro",
+  "license": "ISC",
+  "description": "Simple API to upload, delete, edit, and show images."
+}
